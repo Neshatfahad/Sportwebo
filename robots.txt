@@ -1,3 +1,7 @@
 User-agent: *
 Allow: /
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://sportwebo12.vercel.app/
+
+# Block OpenAI's crawler
+User-agent: GPTBot
+Disallow: /
