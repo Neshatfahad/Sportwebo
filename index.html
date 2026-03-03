@@ -4,8 +4,12 @@
     <meta name="msvalidate.01" content="72C7E476A5DFDA28A3F36024F3993165" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SportSphere | Explore the World of Sports</title>
-    <meta name="description" content="SportSphere - Latest updates, insights, and athlete stories across global sports." />
+        <title>Sportwebo - Sports News, Categories & Athlete Spotlights</title>
+        <meta name="description" content="Sportwebo delivers the latest sports news, in-depth coverage of sports categories, and exclusive athlete spotlights. Stay updated and get started with us!" />
+        <!-- Unique meta for sports categories -->
+        <meta name="sports-categories" content="Football, Basketball, Tennis, Cricket, Athletics, Swimming" />
+        <!-- Unique meta for athlete spotlight -->
+        <meta name="athlete-spotlight" content="Featuring top athletes and their achievements, including Alex Rivera – Sprinting." />
     <meta name="theme-color" content="#ff3d2e" />
     <!-- Open Graph -->
     <meta property="og:title" content="SportSphere" />
@@ -20,6 +24,57 @@
     <meta name="twitter:image" content="https://picsum.photos/seed/stadium/1200/630" />
     <link rel="canonical" href="https://neshatfahad.github.io/sporti-mania/" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+        <!-- JSON-LD Schema Markup for Article/News, Sports Categories, and Athlete Spotlight -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Sportwebo",
+            "url": "https://neshatfahad.github.io/sporti-mania/",
+            "description": "Sportwebo delivers the latest sports news, in-depth coverage of sports categories, and exclusive athlete spotlights.",
+            "publisher": {
+                "@type": "Organization",
+                "name": "Sportwebo"
+            },
+            "mainEntity": [
+                {
+                    "@type": "SportsEvent",
+                    "name": "Football",
+                    "description": "Global passion, leagues, and tournaments."
+                },
+                {
+                    "@type": "SportsEvent",
+                    "name": "Basketball",
+                    "description": "High-paced excitement on the court."
+                },
+                {
+                    "@type": "SportsEvent",
+                    "name": "Cricket",
+                    "description": "Strategy & skill in every over."
+                },
+                {
+                    "@type": "SportsEvent",
+                    "name": "Tennis",
+                    "description": "Precision meets power across courts."
+                },
+                {
+                    "@type": "SportsEvent",
+                    "name": "Athletics",
+                    "description": "Track & field feats of endurance."
+                },
+                {
+                    "@type": "SportsEvent",
+                    "name": "Swimming",
+                    "description": "Speed & technique in the water."
+                },
+                {
+                    "@type": "Person",
+                    "name": "Alex Rivera",
+                    "description": "Athlete Spotlight – Sprinting. Known for explosive acceleration and strategic pacing."
+                }
+            ]
+        }
+        </script>
     <!-- Open Graph -->
     <meta property="og:title" content="SportSphere | Explore the World of Sports" />
     <meta property="og:description" content="Latest updates, insights, and athlete stories across global sports." />
